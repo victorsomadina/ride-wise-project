@@ -8,5 +8,3 @@ joblib
 fastapi
 pydantic
 uvicorn
-xgboost
-pytest
