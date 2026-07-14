@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 from src import preprocessing
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / 'models/xgboost.pkl'
+MODEL_PATH = BASE_DIR / 'models/logistic_regression.pkl'
 FEATURE_COLUMNS_PATH = BASE_DIR / 'models/feature_columns.json'
 
 model = joblib.load(MODEL_PATH)
